@@ -1,0 +1,27 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: spring
+    password: 123456
+#  profiles:
+#    active: native
+  application:
+    name: config-server-git
+  cloud:
+    config:
+      server:
+#        native:
+#          searchLocations: classpath:/config
+        git:
+          uri: https://github.com/763329279/qxxService
+#          search-paths: config-repo                             # git仓库地址下的相对地址，可以配置多个，用,分割。
+          username:                                             # git仓库的账号
+          password:
+server:
+  port: 6002
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8000/eureka/
+

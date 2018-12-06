@@ -1,0 +1,17 @@
+spring:
+#  cloud:
+#    bus:
+#      trace:
+#        enabled: true
+  application:
+    name: spring_coloud_config_client
+#  rabbitmq:
+#    host: localhost
+#    port: 6005
+#    username: admin
+#    password: 123456
+server:
+  port: 6004
+management:
+  security:
+    enabled: false

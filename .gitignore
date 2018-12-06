@@ -1,0 +1,38 @@
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/eureka_server/mvnw.cmd
+/eureka_server/mvnw
+/eureka_producer_2/.mvn/
+/eureka_consumer_feign/.mvn/
+/eureka_consumer/.mvn/
+/config_service_git/.mvn/
+/config_client/.mvn/
+/config_service_git/mvnw
+!/config_service_git/mvnw.cmd
+!/config_service_git/mvnw
+/eureka_consumer/mvnw
+!/eureka_consumer/mvnw
+/eureka_ribbon/.mvn/
